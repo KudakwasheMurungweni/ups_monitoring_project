@@ -7,6 +7,13 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from datetime import datetime
 
+# Replace with your DCE login details and coordinates
+dce_username = 'your_username'
+dce_password = 'your_password'
+username_field_x, username_field_y = 150, 250
+password_field_x, password_field_y = 150, 300
+login_button_x, login_button_y = 150, 350
+
 # Replace with the coordinates of the two "UPS" elements and the path to your Excel file
 ups1_x, ups1_y = 100, 200
 ups2_x, ups2_y = 200, 300
